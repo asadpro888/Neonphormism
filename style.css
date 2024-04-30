@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+span,a,label{
+    display: inline-block
+}
+body{
+    height: 100vh;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}  
+p{
+    color: darkblue;
+    text-align: center;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}  
+#section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px;
+}
+.radius{
+    width: 70%;
+    
+}
+.child{
+    width: 500px;
+    height: 500px;
+    box-shadow: 1px 1px 9px 9px black;
+    transition: 0.9s ease-in-out;
+}
+#inputfeild{
+    width: 20%;
+}
+label{
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+}
+input{
+    outline: none;
+}
